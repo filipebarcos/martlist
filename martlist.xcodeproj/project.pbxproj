@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4D5CC2D13F46A78001CFB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5CC2C13F46A78001CFB05 /* UIKit.framework */; };
+		F4D5CC2F13F46A78001CFB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5CC2E13F46A78001CFB05 /* Foundation.framework */; };
+		F4D5CC3113F46A78001CFB05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5CC3013F46A78001CFB05 /* CoreGraphics.framework */; };
+		F4D5CC3713F46A78001CFB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D5CC3513F46A78001CFB05 /* InfoPlist.strings */; };
+		F4D5CC3913F46A78001CFB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5CC3813F46A78001CFB05 /* main.m */; };
+		F4D5CC3D13F46A78001CFB05 /* martlistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5CC3C13F46A78001CFB05 /* martlistAppDelegate.m */; };
+		F4D5CC4013F46A78001CFB05 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D5CC3E13F46A78001CFB05 /* MainWindow.xib */; };
+		F4D5CC4313F46A78001CFB05 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5CC4213F46A78001CFB05 /* RootViewController.m */; };
+		F4D5CC4613F46A78001CFB05 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D5CC4413F46A78001CFB05 /* RootViewController.xib */; };
+		F4D5CC4E13F46A78001CFB05 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5CC4D13F46A78001CFB05 /* SenTestingKit.framework */; };
+		F4D5CC4F13F46A78001CFB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5CC2C13F46A78001CFB05 /* UIKit.framework */; };
+		F4D5CC5013F46A78001CFB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5CC2E13F46A78001CFB05 /* Foundation.framework */; };
+		F4D5CC5113F46A78001CFB05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5CC3013F46A78001CFB05 /* CoreGraphics.framework */; };
+		F4D5CC5913F46A78001CFB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D5CC5713F46A78001CFB05 /* InfoPlist.strings */; };
+		F4D5CC5B13F46A78001CFB05 /* martlistTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F4D5CC5A13F46A78001CFB05 /* martlistTests.h */; };
+		F4D5CC5D13F46A78001CFB05 /* martlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5CC5C13F46A78001CFB05 /* martlistTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D5CC5213F46A78001CFB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D5CC1F13F46A78001CFB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D5CC2713F46A78001CFB05;
+			remoteInfo = martlist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4D5CC2813F46A78001CFB05 /* martlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = martlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D5CC2C13F46A78001CFB05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4D5CC2E13F46A78001CFB05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4D5CC3013F46A78001CFB05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4D5CC3413F46A78001CFB05 /* martlist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "martlist-Info.plist"; sourceTree = "<group>"; };
+		F4D5CC3613F46A78001CFB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4D5CC3813F46A78001CFB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4D5CC3A13F46A78001CFB05 /* martlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "martlist-Prefix.pch"; sourceTree = "<group>"; };
+		F4D5CC3B13F46A78001CFB05 /* martlistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = martlistAppDelegate.h; sourceTree = "<group>"; };
+		F4D5CC3C13F46A78001CFB05 /* martlistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = martlistAppDelegate.m; sourceTree = "<group>"; };
+		F4D5CC3F13F46A78001CFB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F4D5CC4113F46A78001CFB05 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F4D5CC4213F46A78001CFB05 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F4D5CC4513F46A78001CFB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F4D5CC4C13F46A78001CFB05 /* martlistTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = martlistTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D5CC4D13F46A78001CFB05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4D5CC5613F46A78001CFB05 /* martlistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "martlistTests-Info.plist"; sourceTree = "<group>"; };
+		F4D5CC5813F46A78001CFB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4D5CC5A13F46A78001CFB05 /* martlistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = martlistTests.h; sourceTree = "<group>"; };
+		F4D5CC5C13F46A78001CFB05 /* martlistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = martlistTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D5CC2513F46A78001CFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5CC2D13F46A78001CFB05 /* UIKit.framework in Frameworks */,
+				F4D5CC2F13F46A78001CFB05 /* Foundation.framework in Frameworks */,
+				F4D5CC3113F46A78001CFB05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5CC4813F46A78001CFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5CC4E13F46A78001CFB05 /* SenTestingKit.framework in Frameworks */,
+				F4D5CC4F13F46A78001CFB05 /* UIKit.framework in Frameworks */,
+				F4D5CC5013F46A78001CFB05 /* Foundation.framework in Frameworks */,
+				F4D5CC5113F46A78001CFB05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D5CC1D13F46A78001CFB05 = {
+			isa = PBXGroup;
+			children = (
+				F4D5CC3213F46A78001CFB05 /* martlist */,
+				F4D5CC5413F46A78001CFB05 /* martlistTests */,
+				F4D5CC2B13F46A78001CFB05 /* Frameworks */,
+				F4D5CC2913F46A78001CFB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D5CC2913F46A78001CFB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5CC2813F46A78001CFB05 /* martlist.app */,
+				F4D5CC4C13F46A78001CFB05 /* martlistTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D5CC2B13F46A78001CFB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5CC2C13F46A78001CFB05 /* UIKit.framework */,
+				F4D5CC2E13F46A78001CFB05 /* Foundation.framework */,
+				F4D5CC3013F46A78001CFB05 /* CoreGraphics.framework */,
+				F4D5CC4D13F46A78001CFB05 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D5CC3213F46A78001CFB05 /* martlist */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5CC3B13F46A78001CFB05 /* martlistAppDelegate.h */,
+				F4D5CC3C13F46A78001CFB05 /* martlistAppDelegate.m */,
+				F4D5CC3E13F46A78001CFB05 /* MainWindow.xib */,
+				F4D5CC4113F46A78001CFB05 /* RootViewController.h */,
+				F4D5CC4213F46A78001CFB05 /* RootViewController.m */,
+				F4D5CC4413F46A78001CFB05 /* RootViewController.xib */,
+				F4D5CC3313F46A78001CFB05 /* Supporting Files */,
+			);
+			path = martlist;
+			sourceTree = "<group>";
+		};
+		F4D5CC3313F46A78001CFB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5CC3413F46A78001CFB05 /* martlist-Info.plist */,
+				F4D5CC3513F46A78001CFB05 /* InfoPlist.strings */,
+				F4D5CC3813F46A78001CFB05 /* main.m */,
+				F4D5CC3A13F46A78001CFB05 /* martlist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4D5CC5413F46A78001CFB05 /* martlistTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5CC5A13F46A78001CFB05 /* martlistTests.h */,
+				F4D5CC5C13F46A78001CFB05 /* martlistTests.m */,
+				F4D5CC5513F46A78001CFB05 /* Supporting Files */,
+			);
+			path = martlistTests;
+			sourceTree = "<group>";
+		};
+		F4D5CC5513F46A78001CFB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5CC5613F46A78001CFB05 /* martlistTests-Info.plist */,
+				F4D5CC5713F46A78001CFB05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D5CC2713F46A78001CFB05 /* martlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5CC6013F46A78001CFB05 /* Build configuration list for PBXNativeTarget "martlist" */;
+			buildPhases = (
+				F4D5CC2413F46A78001CFB05 /* Sources */,
+				F4D5CC2513F46A78001CFB05 /* Frameworks */,
+				F4D5CC2613F46A78001CFB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = martlist;
+			productName = martlist;
+			productReference = F4D5CC2813F46A78001CFB05 /* martlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D5CC4B13F46A78001CFB05 /* martlistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5CC6313F46A78001CFB05 /* Build configuration list for PBXNativeTarget "martlistTests" */;
+			buildPhases = (
+				F4D5CC4713F46A78001CFB05 /* Sources */,
+				F4D5CC4813F46A78001CFB05 /* Frameworks */,
+				F4D5CC4913F46A78001CFB05 /* Resources */,
+				F4D5CC4A13F46A78001CFB05 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D5CC5313F46A78001CFB05 /* PBXTargetDependency */,
+			);
+			name = martlistTests;
+			productName = martlistTests;
+			productReference = F4D5CC4C13F46A78001CFB05 /* martlistTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D5CC1F13F46A78001CFB05 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F4D5CC2213F46A78001CFB05 /* Build configuration list for PBXProject "martlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4D5CC1D13F46A78001CFB05;
+			productRefGroup = F4D5CC2913F46A78001CFB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D5CC2713F46A78001CFB05 /* martlist */,
+				F4D5CC4B13F46A78001CFB05 /* martlistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D5CC2613F46A78001CFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5CC3713F46A78001CFB05 /* InfoPlist.strings in Resources */,
+				F4D5CC4013F46A78001CFB05 /* MainWindow.xib in Resources */,
+				F4D5CC4613F46A78001CFB05 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5CC4913F46A78001CFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5CC5913F46A78001CFB05 /* InfoPlist.strings in Resources */,
+				F4D5CC5B13F46A78001CFB05 /* martlistTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4D5CC4A13F46A78001CFB05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D5CC2413F46A78001CFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5CC3913F46A78001CFB05 /* main.m in Sources */,
+				F4D5CC3D13F46A78001CFB05 /* martlistAppDelegate.m in Sources */,
+				F4D5CC4313F46A78001CFB05 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5CC4713F46A78001CFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5CC5D13F46A78001CFB05 /* martlistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D5CC5313F46A78001CFB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D5CC2713F46A78001CFB05 /* martlist */;
+			targetProxy = F4D5CC5213F46A78001CFB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D5CC3513F46A78001CFB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5CC3613F46A78001CFB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4D5CC3E13F46A78001CFB05 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5CC3F13F46A78001CFB05 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F4D5CC4413F46A78001CFB05 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5CC4513F46A78001CFB05 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		F4D5CC5713F46A78001CFB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5CC5813F46A78001CFB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D5CC5E13F46A78001CFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4D5CC5F13F46A78001CFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4D5CC6113F46A78001CFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "martlist/martlist-Prefix.pch";
+				INFOPLIST_FILE = "martlist/martlist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4D5CC6213F46A78001CFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "martlist/martlist-Prefix.pch";
+				INFOPLIST_FILE = "martlist/martlist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4D5CC6413F46A78001CFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/martlist.app/martlist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "martlist/martlist-Prefix.pch";
+				INFOPLIST_FILE = "martlistTests/martlistTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F4D5CC6513F46A78001CFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/martlist.app/martlist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "martlist/martlist-Prefix.pch";
+				INFOPLIST_FILE = "martlistTests/martlistTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D5CC2213F46A78001CFB05 /* Build configuration list for PBXProject "martlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5CC5E13F46A78001CFB05 /* Debug */,
+				F4D5CC5F13F46A78001CFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D5CC6013F46A78001CFB05 /* Build configuration list for PBXNativeTarget "martlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5CC6113F46A78001CFB05 /* Debug */,
+				F4D5CC6213F46A78001CFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4D5CC6313F46A78001CFB05 /* Build configuration list for PBXNativeTarget "martlistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5CC6413F46A78001CFB05 /* Debug */,
+				F4D5CC6513F46A78001CFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D5CC1F13F46A78001CFB05 /* Project object */;
+}
